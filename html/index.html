@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="/sass/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Market Store</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand">Market Store</a>
+            </div>
+          </nav>
+    </header>
+    <section>
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/picture/Banking-CMO_2x1.png" height="220px" class="card-img-top" alt="...">
+                <div class="card-body shadow-lg">
+                  <h5 class="card-title" style="font-weight:700;">JOE BANKER</h5>
+                  <div class="line d-flex justify-content-between">
+                  <p class="card-text" >Balance</p>
+                  <p id="balance">...</p>
+                </div>
+                <div class="line d-flex justify-content-between">
+                <p>Loan</p>
+                <p id="loan">...</p>
+              </div>
+                <h6 id="loanmessage"></h6>
+                <div class="d-flex justify-content-start">
+                <button type="button" class="btn btn-success shadow-lg d-flex justify-content-center" onclick="show()" id="getloan">Get a loan</button>
+                <button type="button" class="btn btn-danger shadow-lg btn-sm" style="display:none;"  id="repayloan">Repay loan</button>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/picture/financial_consultant_2.jpg" height="220px" class="card-img-top" alt="...">
+                <div class="card-body shadow-lg">
+                
+                  <h5 class="card-title" style="font-weight:700;">Work</h5>
+                  <div class="line d-flex justify-content-between">
+                  <p class="card-text">Pay</p>
+                  <p id="pay" >...</p>
+                  </div>
+                  <h1></h1>
+                  <button type="button" class="btn btn-warning shadow-lg btn-sm" id="bank">Bank</button>
+                  <button type="button"  class="btn btn-info shadow-lg btn-sm" id="work">Work</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body shadow-lg">
+                  <h5 class="card-title" style="font-weight:700;">LAPTOPS</h5>
+                  <select class="btn btn-secondary dropdown-toggle" name="description" style="font-size:1rem" id="list">
+                  </select>
+                  
+                  <ul class="card-text" id="info"></ul>  
+                    </div>
+                   
+                </div>
+              </div>
+            </div>
+    </section>
+
+    <div class="card mx-auto container m-3">
+      <div class="card-body">
+        <div class="inline d-flex m-3">
+        <img src="" width="200px" class="m-3" id="picture" alt="">
+        <h6 id="description"></h6>
+        </div>
+        <h4 class="text-center" id="display"></h4>
+        <div class="d-grid gap-2">
+          <h3 id ="text"></h3>
+          <button class="btn btn-primary" type="button" id="buy">Buy Now</button>
+    </div>
+  
+
+    <script src="/javascript/apps.js"></script>
+    
+
+</body>
+</html>
