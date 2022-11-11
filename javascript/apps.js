@@ -199,6 +199,9 @@ const buyButton =()=> {
         showbalance.innerHTML = balance.toLocaleString("no-No", {style: "currency",currency: "Nok",});
         text.innerHTML = "Congratulation you are the owner for this laptop"
         }
+      else if(computer.price > balance){
+        text.innerHTML = "You don't have enough money";
+        }
     else if(balance == 0){
         text.innerHTML = "You cannot afford this laptop";
     }
