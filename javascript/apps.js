@@ -40,7 +40,7 @@ showpay.innerHTML = workpay.toLocaleString("no-No", {
 //below i have wrote a function and i have use DOM 
 function butongetloan () {
   let promptgetloan = parseInt(prompt("Enter the amount:"), 0);
-  if (!isNaN(promptgetloan) && promptgetloan <= balance * 2 &&promptgetloan > 0) {
+  if (!isNaN(promptgetloan) && promptgetloan <= balance * 2 && promptgetloan > 0) {
     if (gotloan == false) {
     loan += promptgetloan;
     balance += loan;
@@ -137,7 +137,10 @@ const infoLists=(items)=> {
         item.appendChild(document.createTextNode(items.title));
         list.appendChild(item);
     });
-}
+    descriptionList(items[0]);
+    specsList(items[0]);
+    imageList(items[0]);
+    priceS(items[0]);}
 
 //here i did the same think but here we have created the list and take the description from api 
 const descriptionList =(item)=>{
@@ -178,7 +181,7 @@ const priceS = (item) =>{
 
 
 
-//here is function who helps me to get automatic the item target index
+//here is function to change the list automatic
 const changeLists=(item)=> {
     computer = items[item.target.selectedIndex];
     descriptionList(computer);
