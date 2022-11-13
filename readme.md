@@ -18,7 +18,7 @@
 [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
 
-[Bootstrap](https://sass-lang.com/documentation/variables)
+[Sass](https://sass-lang.com/documentation/variables)
 
 
 
