@@ -10,6 +10,16 @@
 - If s/he has enough money in the account, s/he can will be able to purchase it.
 
 
+## Installation instructions 
+- Google Chrome (I recomand)
+- Firefox
+- Opera
+- After you have installed Google Chrome , you can download the repository from the git hub. You must go to the directory where you have download the repository and than you can  and unzip to the computer
+- than you can go to the HTML folder and run the project in Chrome (I will recomand).
+- If you may want to edit the project than you must to  install visual studio code  , after that you can go to the file and press select open folder and you have to select the directory to get the project in the code . 
+- have fun
+
+
 ## Documentation
 
 [JavaScript](https://developer.mozilla.org/en-US/)
