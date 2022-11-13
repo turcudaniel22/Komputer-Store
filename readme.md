@@ -11,13 +11,9 @@
 
 
 ## Installation instructions 
-- Google Chrome (I recomand)
-- Firefox
-- Opera
-- After you have installed Google Chrome , you can download the repository from the git hub. You must go to the directory where you have download the repository and than you can  and unzip to the computer
-- than you can go to the HTML folder and run the project in Chrome (I will recomand).
-- If you may want to edit the project than you must to  install visual studio code  , after that you can go to the file and press select open folder and you have to select the directory to get the project in the code . 
-- have fun
+- Google Chrome [Google Chrome](https://www.google.com/chrome/?brand=YTUH&gclid=EAIaIQobChMIoPjskvOr-wIV70eRBR2BYAtVEAAYASAAEgIL0PD_BwE&gclsrc=aw.ds)
+- It is required to use [Visual Studio Code](https://code.visualstudio.com/)
+-
 
 
 ## Documentation
