@@ -13,7 +13,10 @@
 ## Installation instructions 
 - Google Chrome [Google Chrome](https://www.google.com/chrome/?brand=YTUH&gclid=EAIaIQobChMIoPjskvOr-wIV70eRBR2BYAtVEAAYASAAEgIL0PD_BwE&gclsrc=aw.ds)
 - It is required to use [Visual Studio Code](https://code.visualstudio.com/)
--
+
+- I don't host the website on the server it doesn't work completely because of the API, you can use visual studio code go to the file press the open folder then open the project.
+- If you don't use the live server extension I recommand you install it from the extension, it is called 'live server'
+- Then you can run the project completely
 
 
 ## Documentation
