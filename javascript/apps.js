@@ -80,26 +80,22 @@ work.addEventListener("click", workingButton);
 
 //it is a function where it is transfer the money from the work to the balance 
 function bankButton(){
-  debugger;
-  let loanpay = workpay/10
-    if(gotloan && loan > 0 && loan > loanpay ){
-        let payOut = workpay - loanpay
-        loan -= loanpay;
+    if(gotloan && loan > 0){
+        let payOut = workpay - (workpay/10)
+        loan -= (workpay/10);
         balance += payOut;
-    }else if(loan === 0){
-
+        if(loan === 0 || loan < 0){
+          gotloan = 0;
+          loan = 0;
+        }
+    }else if(loan < 0 ){
+        gotloan = 0;
         loan = 0;
         showloan.innerHTML = loan.toLocaleString("no-No", {
           style: "currency",
           currency: "Nok",
         });
-      }else if(loanpay > loan){
-        loan = 0;
-        showloan.innerHTML = loan.toLocaleString("no-No", {
-          style: "currency",
-          currency: "Nok",});
-
-      }
+    }
     else {
         balance +=workpay;
     }
