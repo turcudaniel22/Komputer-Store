@@ -1,43 +1,122 @@
+```markdown
+# 🖥️ Computer Store  
 
-# Computer Store
+A fully functional and modern website for a computer store built using **HTML**, **CSS**, **JavaScript**, and **SASS**.  
 
-- Budget development is where you work and get money.
-- The money then goes to the Bank, for example here it is JOE BANKER.
-- One can also get loan from the bank by easily clicking the get loan button.
-- A pop up will appear to insert the amount of loan expected.
-- It automatically update the amount in the bank.
-- Now, if someone want to purchase the laptop, he can easily do it by choosing laptop options.
-- If s/he has enough money in the account, s/he can will be able to purchase it.
+---
 
+## 📂 Project Structure  
 
-## Installation instructions 
-- Google Chrome [Google Chrome](https://www.google.com/chrome/?brand=YTUH&gclid=EAIaIQobChMIoPjskvOr-wIV70eRBR2BYAtVEAAYASAAEgIL0PD_BwE&gclsrc=aw.ds)
-- It is required to use [Visual Studio Code](https://code.visualstudio.com/)
+```plaintext
+computer-store/
+├── .vscode/             # VS Code configuration files
+├── html/                # HTML files
+│   └── index.html       # Main HTML file
+├── javascript/          # JavaScript files
+│   └── main.js          # Script file with logic
+├── picture/             # Images used in the project
+│   └── *.*              # Placeholder for image assets
+├── sass/                # SASS files
+│   ├── main.scss        # Main SASS file
+│   └── styles.scss      # Additional SASS styles
+├── styles.css           # Compiled CSS file
+└── README.md            # Project documentation
+```
 
-- I don't host the website on the server it doesn't work completely because of the API, you can use visual studio code go to the file press the open folder then open the project.
-- If you don't use the live server extension I recommand you install it from the extension, it is called 'live server'
-- Then you can run the project completely
+---
 
+## ✨ Features  
 
-## Documentation
+- 📦 **Dynamic Content**: JavaScript-based interactive features like product filters and animations.  
+- 🎨 **Customizable Design**: SASS makes styling modular and easy to maintain.  
+- 📱 **Responsive Design**: Optimized for both desktop and mobile views.  
+- ⚡ **Fast Loading**: Includes compressed images and optimized CSS/JS for performance.  
 
-[JavaScript](https://developer.mozilla.org/en-US/)
+---
 
+## 🚀 Getting Started  
 
-[Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+### Prerequisites  
 
+- **Node.js** and **npm** (for SASS compilation).  
 
-[Sass](https://sass-lang.com/documentation/variables)
+### Steps  
 
+1. **Clone the Repository**:  
+   ```bash
+   git clone https://github.com/turcudaniel22/Komputer-Store.git
+   cd computer-store
+   ```
 
+2. **Open the Project**:  
+   Open `html/index.html` in your browser to view the store.  
 
+3. **Compile SASS** (if changes are made to SASS files):  
+   ```bash
+   sass sass/main.scss styles.css
+   ```
 
-## Tech Stack
+---
 
-**Client:** HTML, CSS, Bootstrap, Sass, JavaScript
+## 🛠 Customization  
 
-**Server:** Node.js
+1. **HTML**:  
+   Modify the `index.html` file in the `html` folder to add or edit content.  
 
+2. **JavaScript**:  
+   Update logic in `javascript/main.js` to customize interactive features.  
 
+3. **SASS**:  
+   Edit the files in the `sass` folder and recompile using the command:  
+   ```bash
+   sass sass/main.scss styles.css
+   ```
 
+4. **Images**:  
+   Replace or add image assets in the `picture` folder.  
 
+---
+
+## 📸 Screenshots  
+
+### Desktop View  
+*(Add screenshot here)*  
+
+### Mobile View  
+*(Add screenshot here)*  
+
+---
+
+## 🤝 Contributing  
+
+Contributions are welcome!  
+
+1. Fork the repository.  
+2. Create a new branch:  
+   ```bash
+   git checkout -b feature-name
+   ```  
+3. Commit your changes:  
+   ```bash
+   git commit -m "Add feature"
+   ```  
+4. Push to the branch:  
+   ```bash
+   git push origin feature-name
+   ```  
+5. Open a pull request.  
+
+---
+
+## 📄 License  
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
+
+---
+
+## 🧑‍💻 Author  
+
+👤 **Daniel Turcu**  
+- **GitHub**: [@turcudaniel22](https://github.com/turcudaniel22)  
+- **Email**: [turcudanieli22@gmail.com](mailto:turcudanieli22@gmail.com)  
+```
