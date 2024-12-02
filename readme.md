@@ -1,3 +1,7 @@
+![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5&logoColor=white&style=flat-square)  
+![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=white&style=flat-square)  
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=white&style=flat-square)  
+![SASS](https://img.shields.io/badge/SASS-1.32-pink?logo=sass&logoColor=white&style=flat-square)  
 
 # 🖥️ Computer Store  
 
