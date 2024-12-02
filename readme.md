@@ -1,4 +1,4 @@
-```markdown
+
 # 🖥️ Computer Store  
 
 A fully functional and modern website for a computer store built using **HTML**, **CSS**, **JavaScript**, and **SASS**.  
@@ -80,10 +80,10 @@ computer-store/
 ## 📸 Screenshots  
 
 ### Desktop View  
-*(Add screenshot here)*  
+
 
 ### Mobile View  
-*(Add screenshot here)*  
+
 
 ---
 
@@ -116,7 +116,6 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## 🧑‍💻 Author  
 
-👤 **Daniel Turcu**  
-- **GitHub**: [@turcudaniel22](https://github.com/turcudaniel22)  
+👤 **Daniel Turcu**   
 - **Email**: [turcudanieli22@gmail.com](mailto:turcudanieli22@gmail.com)  
 ```
